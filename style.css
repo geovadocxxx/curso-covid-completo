@@ -1,0 +1,302 @@
+html,body {
+	margin:0;
+	padding:0;
+	background: url("images/fondo1.jpg") repeat scroll left top #f4f4f4;	
+	font-family:arial,sans-serif;
+	font-size: 13px;
+	color: #333;
+	
+}
+#encabezado{
+	width:1100px;
+	margin: auto;
+
+	
+}
+#menu{
+	width:1100px;
+	margin: auto;
+	height:45px;
+	background:#313677;
+	margin-top:2px;
+
+}
+#menu_lateral{
+	width:250px;
+	height:42px;
+	margin-left:0px;
+	float:left;
+
+}
+#articulo{
+	width:804px;
+	padding-right:45px;
+	height:auto;
+	float:left;
+
+}
+#contenido{
+	width:1100px;
+	margin: auto;
+	height:1000px;
+	background-color:#FFF;
+	
+
+}
+
+#contenido2{
+	width:1100px;
+	margin: auto;
+	height:900px;
+	background-color:#FFF;	
+
+}
+
+#contenido3{
+	width:1100px;
+	margin: auto;
+	height:1500px;
+	background-color:#FFF;	
+
+}
+
+#contenido4{
+	width:1100px;
+	margin: auto;
+	height:1100px;
+	background-color:#FFF;	
+
+}
+
+#footer{
+	width:1100px;
+	margin:auto;
+	height:45px;
+	margin-top:0px;
+	background: url("images/footer.jpg") #8c8fd6;
+}
+
+.footer2{
+	width:1100px;
+	margin:auto;
+	height:45px;
+	margin-top:70px;
+	margin-left:-250px;
+	background: url("images/footer.jpg") #8c8fd6;
+}
+
+
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.8em;
+	color:#C55050;
+}
+h2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	color:#C55050;
+}
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+}
+
+li{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+}
+.p_color{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0,5em;
+	color:#6AB6CC;
+}
+.p_color2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0,5em;
+	color:#999;
+}
+.p_color3{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.5em;
+	color:#6AB6CC;
+}
+.p_color4{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0,5em;
+	color:#000;
+	background:#0FF;
+}
+.p_color5{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	color:#7772B2;
+}
+
+.historia{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0,5em;
+	font-style:italic;
+}
+
+.texto_blanco{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0,5em;
+	color:#FFF;
+
+}
+
+a:link {
+	text-decoration:none;
+	color:#8c8fd6;
+	
+}
+a:hover {
+	color: #93C343;
+}
+a:visited {
+	color:#7772B2;
+}
+
+.vinculo_solo{
+	color:#fff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+
+
+}
+.tabla_grafica{
+	font-size:12px;
+	border-collapse: collapse;
+	margin: 0 auto;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.Titulos{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-size: 22px;
+		color:#da0fc6;
+	 }
+	 .Contenidos_pie{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	letter-spacing:0.5px;
+	color:#999;}
+	
+ul {
+    list-style-image: url(images/bullet.gif);
+	
+}
+
+li {margin: 20px;}
+
+.submenu{
+	background-color:#900;
+}
+
+
+.vinculo_on{
+	background-color:#fff; 
+        padding-top:5px;
+        padding-bottom:5px;background-color:none; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:13px; color:#C64474;
+}
+.autores{
+	font-family:Verdana, Geneva, sans-serif;
+        font-size: 18px;
+		color:#8053A0;
+	 }
+	.resumen_autores{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+}
+.resumen_utilidades{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+}
+
+.sp-arrow {
+    position: absolute;
+	top: 50%;
+	width: 28px;
+	height: 38px;
+	margin-top: -19px;
+	display: none;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 1000;
+	background: transparent url(../images/arrows.png) no-repeat;
+	-webkit-transition: opacity linear 0.3s;
+    -moz-transition: opacity linear 0.3s;
+    -o-transition: opacity linear 0.3s;
+    -ms-transition: opacity linear 0.3s;
+    transition: opacity linear 0.3s;
+}
+.sp-arrow:hover{
+	opacity: 1;
+}
+.sp-arrow:active{
+	margin-top: -18px;
+}
+.tabla_grafica{
+	font-family:Verdana, Geneva, sans-serif;
+	border-collapse: collapse;
+	margin: 0 auto;
+	border-right: 1px solid #CCC;	
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	font-size:13px;
+	line-height:19px;
+	text-align:left;
+}
+
+.estudiante{
+	color:#1FC6B9;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-size:18px;
+
+
+}
+.tablas_meto{
+	color:#7772B2;
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	font-size:13px;
+
+
+}
+.tablas_evaluacion{
+	background-color:#E8E8E0;}
+	
+.tabla_general {
+	
+	background-color:#ededed;
+	border-radius: 0px 0px 20px 20px;
+	border-collapse: collapse;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-bottom: 30px;
+	
+}
+
+.tabla_general2 {
+	
+	background-color:#ffffff;
+	border-collapse: collapse;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-bottom: 0px;
+	
+}
+
+.borde{
+	border: solid 1px white;
+	border-collapse: collapse;
+	padding:25px;
+}
+
+
+/*--------------------------------------------------------------------------------------  ACCORDION  --------------------------------------------------------------------*/
+
